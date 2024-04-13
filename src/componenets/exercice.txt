@@ -1,0 +1,15 @@
+Mettez en place une nouvelle application React.
+Utilisez React Router DOM pour créer différentes pages :
+Une page d'accueil.
+Une page de profil utilisateur.
+Une page de contact.
+Sur la page d'accueil, ajoutez des liens vers les pages de profil utilisateur et de contact.
+Sur la page de profil utilisateur, affichez des informations de profil factices (par exemple, nom, email, etc.).
+Sur la page de contact, ajoutez un formulaire de contact simple avec des champs pour le nom, l'email et le message.
+Assurez-vous que la navigation entre les pages se fait sans rechargement de la page.
+Points supplémentaires (facultatif) :
+Ajoutez des styles CSS pour rendre votre application plus attrayante.
+Utilisez des paramètres de route pour afficher des profils utilisateur différents sur la page de profil utilisateur.
+Ajoutez une barre de navigation pour permettre une navigation facile entre les pages.
+Ressources :
+Documentation officielle de React Router DOM : React Router DOM
