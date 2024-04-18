@@ -7,12 +7,16 @@
   }
 .Acceuil{
     font-family: 'Shadows Into Light', cursive;
+    font-weight: lighter;
     text-align: center;
     padding: 20px;
-    margin-top: 100px;
-    background: linear-gradient(rgb(219, 163, 42), rgb(0, 255, 98));
-    background-color: rgba(0, 0, 0, 0.2); /* Ajoutez une couleur de fond avec une transparence de 20% */
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /* background: linear-gradient(rgb(219, 163, 42), rgb(0, 255, 98));
+    background-color: rgba(0, 0, 0, 0.2);  */
     background-size: cover;
+    
+    /* background-position: 49% 50px; */
 
 } 
 .center{
@@ -20,7 +24,7 @@
 }
 h1{
     margin-bottom: 10px;
-    color: #333;
+    color: #f8f2f2;
     font-size: 24px;
 }  
 h2{
@@ -35,14 +39,16 @@ h3 {
   }
 li{
   cursor: pointer;
-    
+  font-weight: 100;
+  color:rgb(20, 17, 17)
 }
 li:hover{
     text-transform: uppercase;
+    color: darkkhaki;
 }
 
 a{
-    color: #007bff;
+    color: #5288c2;
     text-align: center;
     text-decoration: none;
 }
