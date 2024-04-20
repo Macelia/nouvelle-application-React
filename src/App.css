@@ -7,6 +7,7 @@
     background-position: center;
     color: black;
     height: 1000px; */
+    height: 1000px;
 }
 .BlurBackground{
   position:relative;
@@ -18,7 +19,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url(componenets/background/1.jpg);
+  /* background-image: url(componenets/background/3.avif); */
   background-repeat: none;
   background-size: 1700px;
   background-position: center;
@@ -35,8 +36,33 @@
   color: black;
 
   margin: auto;
-  padding: 20px;
-  background: linear-gradient(rgb(135, 240, 16), rgb(226, 165, 52) );
+  padding: 40px;
+  background-image: url('./componenets/background/2.avif') ;
+}
+
+.Logo{
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  /* background: linear-gradient(135deg, #ff7e5f, #feb47b); */
+  color: #fff;
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  animation: spin 45s linear infinite;
+
+}
+
+@keyframes spin {
+  0% { transform: skewX(0deg); } /* À 0% de l'animation, le logo est incliné de 0 degré */
+  60% { transform: skewX(30deg) rotate(1080deg); } /* À 60% de l'animation, le logo est incliné de 30 degrés et tourne de 1080 degrés */
+  100% { transform: skewX(30deg) rotate(1080deg); } /* À 100% de l'animation, le logo reste incliné de 30 degrés et tourné de 1080 degrés */
+}
+
+
+
+span{
+  font-size: 24px;
+  color: blue;
 }
 .content{
   background-image: url(componenets/background/1.jpg);

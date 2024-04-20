@@ -32,7 +32,9 @@ export default App;
 const Root =()=>{
   return <>
   <div className='BlurBackground'>
+
   <div className='Link'>
+    <div className='Logo'>Macelia<span>NOVA</span></div>
     <Link to='/'>Acceuil</Link>
     <Link to='/userprofile'>User-Profile</Link>
     <Link to='/contact'>Contact</Link>

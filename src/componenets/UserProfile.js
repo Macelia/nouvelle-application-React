@@ -1,5 +1,6 @@
 // Sur la page de profil utilisateur, affichez des informations de profil factices (par exemple, nom, email, etc.).
 import React from 'react'
+import './UserProfile.css'
 import { useLoaderData } from 'react-router-dom';
 
 const UserProfile = () => {
@@ -8,13 +9,14 @@ const UserProfile = () => {
 
   return (
     <div>
-      <h1>Our User's Data :</h1>
+      <h1> Our Users - Profile :</h1>
      
      <ul>
-     { users.map((user,index)=>(
-      <li key={index}>
 
-   
+     { users.map((user,index)=>(
+
+
+      <li key={index}>
         <img src={user.photo} alt="User"/>
       
       <div>
@@ -22,7 +24,9 @@ const UserProfile = () => {
         <p>Email:{user.email}</p>
       </div>
       </li>
+
         ))}
+
       </ul>
     </div>
   )
