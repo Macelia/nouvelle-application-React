@@ -39,7 +39,7 @@ h3 {
   }
 li{
   cursor: pointer;
-  font-weight: 100;
+  font-weight: 10;
   color:rgb(20, 17, 17)
 }
 li:hover{
@@ -65,4 +65,13 @@ a:hover {
     background-color: #fccc66;
     margin: 45px;
     padding: 30px;
+
+   
+}
+
+.btn-login{
+  padding: 10px 10px;
+  margin: 30px;
+  background-color: blue;
+  border-radius: 7px;
 }

@@ -1,14 +1,20 @@
 // Sur la page de profil utilisateur, affichez des informations de profil factices (par exemple, nom, email, etc.).
 import React from 'react'
 import './UserProfile.css'
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 
 const UserProfile = () => {
 
   const users=useLoaderData();
 
+  
+  const navigate=useNavigate();
+
+  if(navigate.state === "Loading" ){<h1>Loading</h1>};
+
+
   return (
-    <div>
+  <div>
       <h1> Our Users - Profile :</h1>
      
      <ul>
@@ -29,7 +35,7 @@ const UserProfile = () => {
 
       </ul>
     </div>
-  )
+   )
 }
 
 
