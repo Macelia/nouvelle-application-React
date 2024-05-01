@@ -45,8 +45,8 @@ const Root =()=>{
     <Link to='/'>Acceuil</Link>
     <Link to='/userprofile'>User-Profile</Link>
     {/* <Link to='/contact'>Contact</Link> */}
-    <Link to='login'>Log-In</Link>
-    <Link to='singup'>Sing-Up</Link>
+    <Link to='/login'>Log-In</Link>
+    <Link to='/singup'>Sing-Up</Link>
 
   </div>
   

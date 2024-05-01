@@ -46,6 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  text-shadow: #fff;
   color: rgb(245, 235, 235);
   /* font-weight: bold; */
   font-size: 24px;

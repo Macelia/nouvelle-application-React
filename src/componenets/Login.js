@@ -1,9 +1,10 @@
 import React from 'react'
 import './style.css'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const navigate = useNavigate();
+//  const { id }=useParams();
   return (
     <div className='form '>  
         <div className='form_container p-150 rounded bg-red'>
@@ -31,8 +32,8 @@ const Login = () => {
 
                 </div>
 
-                <p className='text-right'>
-                  Forgot <a href="" className='lien'> Password? </a> <a href="" className='lien'> Sing up</a>
+                <p className='text-end mt-2'>
+                  Forgot <Link href="" className='ms-2'> Password? </Link> <Link to='/singup' className='ms-2' > Sing up</Link>
                 </p>
 
               </form>

@@ -39,7 +39,7 @@ h3 {
   }
 li{
   cursor: pointer;
-  font-weight: 10;
+  font-weight: 10px;
   color:rgb(20, 17, 17)
 }
 li:hover{
@@ -54,7 +54,8 @@ a{
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    text-shadow: #fccc66;
   }
 
 .Acceuil{
